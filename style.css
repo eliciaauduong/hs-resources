@@ -56,13 +56,13 @@ a:hover {
   font-size: 16pt;
 }
 
-#link {
+.link {
   text-decoration: none;
   color: var(--main-color);
   letter-spacing: 0.5pt;
 }
 
-#link:hover {
+.link:hover {
   text-decoration: none;
   color: var(--secondary-color);
 }
@@ -74,4 +74,9 @@ p,
 
 img {
   width: 30%;
+}
+
+#jump {
+  font-size: 16pt;
+  font-weight: bold;
 }
