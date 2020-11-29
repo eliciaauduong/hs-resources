@@ -1,0 +1,77 @@
+* {
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+:root {
+  --main-color: #5ab6db;
+  --secondary-color: #6c63ff;
+}
+
+h1 {
+  text-align: center;
+  padding: 10% 0 2% 0;
+}
+
+section {
+  padding-bottom: 50px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.grid-item {
+  background-color: var(--main-color);
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+.grid-item:hover {
+  background-color: black;
+  box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.5pt;
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.important {
+  text-align: center;
+  font-size: 16pt;
+}
+
+#link {
+  text-decoration: none;
+  color: var(--main-color);
+  letter-spacing: 0.5pt;
+}
+
+#link:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+p,
+#photo {
+  text-align: center;
+}
+
+img {
+  width: 30%;
+}
